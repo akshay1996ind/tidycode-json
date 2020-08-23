@@ -9,5 +9,9 @@
       "title": "Check if a string is a palindrome",
       "copybox": "string = \"Tenet\"\nreverse_string = \"\"\nfor i in string:\n\t reverse_string = i + reverse_string\n\t if (string==reverse_string):\n\t  \t  print(\"YES\")"
     }
+    {
+      "title":"Validating an Email",
+      "copybox": "import re\nregex_email = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'\nif(re.search(regex_email,\"test@exaple.com\")):\n\tprint(\"Valid Email\")\nelse:\n\tprint(\"Invalid Email\")\n#output: Valid Email"
+    }
   ]
 }
