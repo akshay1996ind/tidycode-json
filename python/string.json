@@ -1,0 +1,13 @@
+{
+  "section": "String",
+  "tidyList": [
+    {
+      "title": "Capitalize a string",
+      "copybox": "name = \"test\"\nname.capitalize()"
+    },
+    {
+      "title": "Check if a string is a palindrome",
+      "copybox": "string = \"Tenet\"\nreverse_string = \"\"\nfor i in string:\n\t reverse_string = i + reverse_string\n\t if (string==reverse_string):\n\t  \t  print("YES")"
+    }
+  ]
+}
